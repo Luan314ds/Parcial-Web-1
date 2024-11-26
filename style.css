@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(131, 114, 114);
+}
+
+.reg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* Ajuste perfecto al centro */
+    background-color: rgba(155, 145, 145, 0.8);
+    /* Fondo semitransparente para mayor visibilidad */
+    padding: 40px;
+    /* Espaciado interno */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(41, 40, 40, 0.5);
+    /* Sombra para resaltar */
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+ 
+}
+
+h1, label{
+    text-align: center;
+}
+
+button, input{
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    /* Ajuste perfecto al centro */
+    background-color: rgba(155, 145, 145, 0.8);
+    /* Fondo semitransparente para mayor visibilidad */
+    padding: 40px;
+    /* Espaciado interno */
+    margin-left: 10px;
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(41, 40, 40, 0.5);
+    /* Sombra para resaltar */
+}

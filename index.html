@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Registros De La Empresa</h1>
+    <div class="container">
+
+        <div class="reg">
+            <h1>Agregar Registros Mensuales</h1>
+            <form id="form_registros">
+                <label for="mes">Mes</label>
+                <input id="mes" name="mes" type="number">
+                <label for="ventas">Ventas</label>
+                <input id="ventas" name="ventas" type="number">
+                <label for="gastos">Gastos</label>
+                <input id="gastos" name="gastos" type="number">
+                <button id="btn-agregar" type="submit">Agregar</button>
+            </form>
+
+            <div id="mensaje"></div>
+
+        </div>
+
+        <div class="lista">
+
+            <h1>Registro Mensual</h1>
+            <ul id="lista">
+
+            </ul>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
