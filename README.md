@@ -3,7 +3,7 @@
 // b. Mostrar un listado con los meses registrados y la ganancia neta de cada mes (resultado =
 // ventas - gastos).
 // c. Mostrar en el párrafo, el total de las ganancias menos el total de gastos de los datos
-// cargados (ganancia neta total). Si la ganancia neta total es negativa se debe mostrar con un
+// cargados (ganancia neta total).(A PARTIR DE ACA NO ESTA HECHO) Si la ganancia neta total es negativa se debe mostrar con un
 // estilo resaltado en rojo y negrita.
 // d. Escriba una función para mostrar por consola la cantidad de meses que los gastos
 // superaron a las ventas.
